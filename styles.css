@@ -13,6 +13,24 @@ ul{
   margin-bottom: 0;
 }
 
+.btn-block{
+  width: 100%;
+}
+
+.bg-primary{
+  background-color: #08703a!important;
+}
+.border-primary{
+  border-color: #08703a!important;
+}
+.btn-primary{
+  background-color: #08703a!important;
+  border-color: #08703a!important;
+}
+.btn-primary:hover{
+  background-color: #0a7e3a!important;
+  border-color: #0a7e3a!important;
+  }
 /* Navigation & home Section */
 header {
     background-color: #fff;
