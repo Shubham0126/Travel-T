@@ -369,3 +369,53 @@ footer .glink ul li a {
   font-size: 1.2rem;
   margin-bottom: 20px;
 }
+
+/* About US Page Section */
+
+.about-container{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/About.webp');
+  height: 70vh;
+  padding: 3% 7%;
+  background-position: center center;
+  background-size: cover;
+}
+.location-container{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/Locations.webp');
+  height: 70vh;
+  padding: 3% 7%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.about-container h1 , .location-container h1{
+  font-size: 5.5rem;
+  font-weight: bold;
+  line-height: 5.25rem;
+}
+@media screen and (max-width: 576px) {
+.about-container h1 , .location-container h1{
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+.about-container , .location-container{
+height: 50vh;
+}
+}
+@media screen and (max-width: 480px) {
+.about-container h1 , .location-container h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+.about-container .location-container{
+height: 40vh;
+}
+}
+
+.text i{
+  padding: 10px;
+  background-color: #08703a;
+  color: #FFF;
+}
+
