@@ -1,22 +1,7 @@
-$(".place-carousel").owlCarousel({
-    autoplay: true,
-    smartSpeed: 1500,
-    margin: 30,
-    dots: true,
-    loop: true,
-    center: true,
-    responsive: {
-        0:{
-            items:1
-        },
-        576:{
-            items:1
-        },
-        768:{
-            items:1
-        },
-        992:{
-            items:1
-        }
-    }
+
+// Add hover effect to menus
+jQuery('div.nav li.dropdown').hover(function() {
+    jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+  }, function() {
+    jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
   });
