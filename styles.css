@@ -48,7 +48,7 @@ header {
   
    .clldetal ul li {
     float: left;
-    padding: 10px;
+    padding: 6px 10px;
     font-weight: 600;
     font-size: .93rem;
   }
@@ -58,9 +58,9 @@ header {
     margin-right: 5px;
   }
   
-   .clldetal ul .bgb {
+/*    .clldetal ul .bgb {
     padding-top: 18px;
-  }
+  } */
   
    .clldetal ul .btn {
     box-shadow: none;
@@ -104,7 +104,7 @@ header {
   
    .socials ul li {
     float: left;
-    padding: 19px;
+    padding: 6px 19px;
     color: #08703a;
   }
   
