@@ -13,8 +13,18 @@ ul{
   margin-bottom: 0;
 }
 
+h2{
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.875rem;
+}
+
 .btn-block{
   width: 100%;
+}
+
+.primary{
+  color: #450452!important;
 }
 
 .bg-primary{
@@ -75,8 +85,9 @@ header {
 }
   
   .navbar-nav a{
-    font-size: 1.2rem;
-    padding: 10px 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 5px 20px;
     margin: 0px 20px;
     color: white;
     }
@@ -146,7 +157,9 @@ header {
 
 .about-text{
     font-size: 1.5rem;
-    line-height: 1.8;
+    line-height: 1.75;
+    font-weight: 300;
+    color: #450452;
 }
 .btn-outline-success{
     color: white;
@@ -161,12 +174,14 @@ header {
   color: white;
 }
 
-.img-tree{
-  float: right;
+.box{
+  text-align: center;
+  font-weight: bold;
 }
+
 .about-us {
   padding: 50px;
-  padding-top: 110px;
+ 
   background-color: #FFF;
 }
 
