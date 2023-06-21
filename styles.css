@@ -122,7 +122,7 @@ header {
   }
   
 .home-container{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/web-home.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/Home-bg.webp');
     height: 90vh;
     padding: 3% 7%;
     background-position: center center;
@@ -397,7 +397,7 @@ footer .glink ul li a {
 /* About US Page Section */
 
 .about-container{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/About.webp');
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/ofc-1.webp');
   height: 70vh;
   padding: 3% 7%;
   background-position: center center;
